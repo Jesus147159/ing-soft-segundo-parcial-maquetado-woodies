@@ -1,23 +1,78 @@
 body {
-    font-family: 'Nunito', sans-serif; 
+  font-family: 'Nunito', sans-serif;
 }
-
+.header {
+  min-height: 800px;
+  margin-bottom: 120px;
+}
 .header-table {
-width: 50%;
-height: 800px;
-background: url(../img/header-table.png);
-background-repeat: no-repeat;
-background-size: cover;
-position: absolute;
-top: 0;
-right: 0;
-z-index: -1;
+  min-width: 630px;
+  min-height: 800px;
+  background: url(../img/header-table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
 }
 .header-container {
-    height: 550px;
-    display: flex;
-    align-items: center;
+  height: 550px;
+  display: flex;
+  align-items: center;
 }
 .nav-link.active {
-    color: #daa520 !important;
+  color: #daa520 !important;
+}
+
+.text-cucharas {
+  position: relative;
+  top: -263px
+}
+
+.woodies-text-center {
+  display: flex;
+  align-items: center;
+}
+.woodies-furniture h3 {
+  color: #3e3f43;
+  font-size: 2.25rem;
+}
+.woodies-furniture p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.icono {
+  height: 40px;
+  background: url(../img/icono.jpg);
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+.icono h3 {
+  color: #3e3f43;
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+.icono h1 {
+color: #222222;
+font-size: 4.5rem;
+}
+
+
+.header-cucharas {
+  background: url(../img/header-cucharas.jpg);
+  display: flex;
+  padding: 25px;
+  min-height: 384px;
+  min-width: 287px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.text-gray-opacity {
+  color: rgb(34, 34, 34, 0.1);
+  font-size: 4.5rem;
 }
