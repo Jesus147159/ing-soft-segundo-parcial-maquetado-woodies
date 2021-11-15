@@ -51,7 +51,7 @@ body {
 .icono h3 {
   color: #3e3f43;
   font-size: 2.25rem;
-  font-weight: 500;
+  font-weight: 300;
 }
 .icono h1 {
 color: #222222;
@@ -74,4 +74,182 @@ font-size: 4.5rem;
 .text-gray-opacity {
   color: rgb(34, 34, 34, 0.1);
   font-size: 4.5rem;
+}
+
+.rectangle-rosado {
+  background: url(../img/rectangulo-rosado.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 400px;
+  width: 280px;
+  padding: 25px;
+  left: 0%;
+  top: 0;
+}
+
+.mesa {
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  padding: auto;
+  height: 224px;
+  width: 246px;
+  top: 122px;
+  position: absolute;
+}
+
+.encabezado-mesa {
+  position: absolute;
+  display: flex;
+  top: 44px;
+  left: 110 px;
+}
+
+.button-mesa {
+  position: absolute;
+  display: flex;
+  top: 370px;
+  padding-left: 165px;
+}
+
+.rectangulo-amarillo {
+  background: url(../img/rectagulo-amarillo.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-left: 56px;
+  height: 400px;
+  width: 280px;
+  padding: 25px;
+  left: 0%;
+  top: 0;
+}
+
+.silla {
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  height: 235px;
+  width: 165.25px;
+  top: 122px;
+  padding-left: 35px;
+  position: absolute;
+}
+
+.encabezado-silla {
+  position: absolute;
+  display: flex;
+  top: 44px;
+  left: 110 px;
+}
+
+.button-silla {
+  position: absolute;
+  display: flex;
+  top: 370px;
+  padding-left: 165px;
+}
+
+.rectangulo-azulito {
+  background: url(../img/rectangulo-azulito.png);
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-left: 56px;
+  height: 400px;
+  width: 280px;
+  padding: 25px;
+  left: 0%;
+  top: 0;
+}
+
+.basija {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 200px;
+  width: 181.01px;
+  top: 122px;
+  padding-left: 35px;
+  position: absolute;
+}
+
+.encabezado-basija {
+  position: absolute;
+  display: flex;
+  top: 44px;
+  left: 110 px;
+}
+
+.button-basija {
+  display: flex;
+  position: absolute;
+  top: 370px;
+  padding-left: 165px;
+}
+
+.rectangulo-rosados {
+  background: url(../img/rectangulo-rosado.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 400px;
+  width: 280px;
+  padding: 25px;
+  left: 0%;
+  top: 0;
+}
+
+.armario {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 235px;
+  width: 148.82px;
+  top: 550px;
+  padding-left: 45px;
+  position: absolute;
+}
+.encabezado-armario {
+  position: absolute;
+  display: flex;
+  top: 500px;
+  left: 150 px;
+}
+
+.button-armario {
+  position: absolute;
+  display: flex;
+  top: 825px;
+  padding-left: 165px;
+}
+
+.radio {
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  height: 139.12px;
+  width: 235px;
+  top: 600px;
+  padding-left: 35px;
+  position: absolute;
+}
+
+.encabezado-radio {
+  position: absolute;
+  display: flex;
+  top: 500px;
+  left: 110 px;
+}
+
+.button-radio {
+  position: absolute;
+  display: flex;
+  top: 825px;
+  padding-left: 165px;
 }
