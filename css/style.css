@@ -76,7 +76,17 @@ font-size: 4.5rem;
   font-size: 4.5rem;
 }
 
-.rectangle-rosado {
+#galeria-works .col-lg-3 {
+  margin: 0 !important;
+  padding: 25px;
+}
+
+#galeria-works img {
+  display: flex;
+  width: 120px;
+  height: 120px
+}
+.rectangulo-rosado {
   background: url(../img/rectangulo-rosado.png);
   display: flex;
   background-size: cover;
@@ -100,6 +110,11 @@ font-size: 4.5rem;
   position: absolute;
 }
 
+#galeria-categories .col-lg-4 {
+  display: flex;
+  margin: 0 !important;
+  padding: 25px;
+}
 .encabezado-mesa {
   position: absolute;
   display: flex;
@@ -252,4 +267,29 @@ font-size: 4.5rem;
   display: flex;
   top: 825px;
   padding-left: 165px;
+}
+
+.habitacion-uno {
+  background: url(../img/habitacion-uno.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 320px;
+  width: 240px;
+  left: 0%;
+  top: 0;
+}
+
+.habitacion-dos {
+  background: url(../img/habitacion-dos.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-left: 25px;
+  height: 320px;
+  width: 240px;
+  left: 0%;
+  top: 0;
 }
